@@ -172,7 +172,9 @@ declare namespace WechatMiniprogram.Component {
         : T extends ObjectConstructor
         ? IAnyObject
         : never
-    type SimpleValueType<T extends PropertyType, V> = T extends StringConstructor
+    type SimpleValueType<T extends PropertyType, V> = T extends null
+        ? V
+        : T extends StringConstructor
         ? Satisfy<string, V>
         : T extends NumberConstructor
         ? Satisfy<number, V>

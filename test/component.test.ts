@@ -34,6 +34,7 @@ Component({
         expectType<number>(oldVal)
         expectType<void>(this.onMyButtonTap())
         expectType<number>(this.data.max)
+        expectType<string>(this.data.freeType)
       },
     },
     lastLeaf: {
