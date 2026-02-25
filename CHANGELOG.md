@@ -1,3 +1,7 @@
+## 2026-02-25 v5.1.0
+- 修复 `v5.0.0` 更新导致 property 指定 `type: null` 时，值推导为 `never` 的问题（[#369](https://github.com/wechat-miniprogram/api-typings/pull/369)）
+- 解决依赖安全问题
+
 ## 2026-02-12 v5.0.1
 - 更新 API 定义到 3.14.2
 
