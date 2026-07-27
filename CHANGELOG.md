@@ -1,3 +1,6 @@
+## 2026-04-22 v5.2.2
+- 更新 API 定义到 3.17.0
+
 ## 2026-05-14 v5.2.1
 - glass-easel Chaining API 中的 `triggerEvent` 中的 `detail` 和 `options` 改为可选
 
