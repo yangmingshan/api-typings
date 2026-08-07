@@ -404,7 +404,7 @@ declare namespace WechatMiniprogram.App {
     type TrivialInstance = Instance<IAnyObject>
 
     interface Constructor {
-        <T extends IAnyObject>(options: Options<T>): void
+        <T extends IAnyObject>(options?: Options<T>): void
     }
 
     interface GetAppOption {
